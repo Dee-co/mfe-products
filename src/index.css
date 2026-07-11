@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #3729AB;
+  --color-secondary: #7107E7;
+  --color-success: #16a34a;
+  --color-danger: #dc2626;
+  --color-dark: #1f2937;
+}
+
+.thumbnail-grid {
+  display: none;
+}
+
+.breadCrumb {
+  display: none;
+}
+
+@media (min-width: 640px) {
+  .thumbnail-grid {
+    display: grid;
+  }
+
+  .breadCrumb {
+    display: flex;
+  }
+}
