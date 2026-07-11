@@ -16,8 +16,8 @@ export default defineConfig({
         "./ProductDetail": "./src/ProductDetail.jsx",
       },
       remotes: {
-        shell: "http://localhost:5004/assets/remoteEntry.js",
-        mfeShareUi: "http://localhost:5005/assets/remoteEntry.js",
+        shell: "https://mfe-shell-beige.vercel.app/assets/remoteEntry.js",
+        mfeShareUi: "https://mfe-share-ui.vercel.app/assets/remoteEntry.js",
       },
       shared: [
         "react",
